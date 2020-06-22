@@ -1,0 +1,11 @@
+{
+    "name": "Supermarché PA Prices",
+    "version": "1.0",
+    "description": "Show prices when shopping for groceries on Supermarché PA's online store",
+    "content_scripts": [{
+		"matches": ["https://*.supermarchepa.com/*"],
+		"js": ["contentScript.js"]
+    }],
+    "permissions": ["activeTab"],
+    "manifest_version": 2
+ }
