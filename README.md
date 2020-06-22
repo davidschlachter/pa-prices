@@ -1,0 +1,1 @@
+Simple Chrome extension to show prices in the Supermarché PA (Montréal grocery chain) online store. The information is available in a JavaScript variable, but by default is only displayed if the item is on sale.
